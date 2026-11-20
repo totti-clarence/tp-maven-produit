@@ -1,0 +1,39 @@
+TP MAVEN : MON PREMIER PROJET MAVEN
+Nom et prénom : Yvan Clarence NGUEMA ELLA
+Groupe : CA
+Date : 20/11/2026
+
+REPONSES - ETAPE 3
+
+1. Quelles sont les coordonnées GAV du projet ?
+
+   GroupId : ga.esiitech.tp
+   ArtifactId : tp-maven-produits
+   Version : 1.0-SNAPSHOT
+
+2. Avec quelle version de Java le projet est-il compilé ?
+
+   Le projet est compilé avec Java 25.
+
+3. Dans quel dossier allez-vous écrire la classe Product ? Et son test ?
+
+   - La classe Product est dans : src/main/java/ga/esiitech/tp/
+   - Le test ProductTest est dans : src/test/java/ga/esiitech/tp/
+
+
+REPONSES - ETAPE 7
+
+1. Quel est le nom exact du fichier .jar créé par mvn package ? Avec quelles balises du pom.xml Maven l'a-t-il construit ?
+
+   Le nom exact du fichier JAR est : tp-maven-produits-1.0-SNAPSHOT.jar
+
+   Maven l'a construit avec les balises :
+   - <artifactId>tp-maven-produits</artifactId>
+   - <version>1.0-SNAPSHOT</version>
+
+   Les extensions par défaut du nom du JAR sont l'ArtifactId, suivi de la Version.
+
+2. Que se passe-t-il si vous lancez mvn package alors qu'un test échoue ?
+
+   Maven lance la compilation et les tests avant de créer le JAR. Si un test échoue,
+   Maven affiche BUILD FAILURE et le fichier JAR n'est pas créé.
