@@ -1,7 +1,5 @@
 TP MAVEN : MON PREMIER PROJET MAVEN
 Nom et prénom : Yvan Clarence NGUEMA ELLA
-Groupe : CA
-Date : 20/11/2026
 
 REPONSES - ETAPE 3
 
